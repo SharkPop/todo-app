@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 5px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.slide-element span:nth-child(1){
+    cursor: pointer;
+}
+.slide-element{
+    
+    height: 30px;
+}
+.slide-element.slided{
+    height: auto;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+    border-bottom: 1px solid black;
+    
+}
+li > button{
+    margin-bottom: 5px;
+}
+li span{
+    margin: 0px 5px;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
